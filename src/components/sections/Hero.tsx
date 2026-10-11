@@ -205,9 +205,9 @@ export function Hero() {
           >
             <div className="relative h-full w-full overflow-hidden rounded-[1.6rem] bg-white">
               <img
-                src="/image.png"
-                alt="Portrait of Sharugesh T"
-                className="h-full w-full object-cover object-top"
+                  src={`${import.meta.env.BASE_URL}image.png`}
+                  alt="Portrait of Sharugesh T"
+                  className="h-full w-full object-cover object-top"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-ink-950/35 via-transparent to-white/10 pointer-events-none" />
               <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between rounded-xl bg-white/80 backdrop-blur-md border border-white/70 px-3 py-2">
